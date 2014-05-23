@@ -18,7 +18,8 @@ spring-boot-rest-example
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-        </dependencies> </dependencyManagement>
+        </dependencies>
+    </dependencyManagement>
 
 
 
