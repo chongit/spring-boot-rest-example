@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.pdager.tianyi.user.account.bean.Account;
 import com.pdager.tianyi.user.account.service.AccountService;
 
-@RestController(value = "/service/account")
+@RestController
+@RequestMapping("/service/account/")
 public class AccountController {
 
 	@Autowired

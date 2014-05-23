@@ -12,7 +12,6 @@
 	<!-- Add typical dependencies for a web application -->
 	<properties>
 		<main.basedir>${basedir}/../..</main.basedir>
-		<springboot.version>1.0.2.RELEASE</springboot.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -43,7 +42,6 @@
 		</dependency>
 	</dependencies>
 
-	<!-- Package as an executable jar -->
 	<build>
 		<plugins>
 			<plugin>
